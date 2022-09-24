@@ -14,3 +14,33 @@ html, body {
 .fs-50{
   font-size: 15px;
 }
+
+.candy_img{
+  margin-left : 200px;
+  height : 500px;
+}
+  
+.candy_toolbox{
+  margin-left : 200px;
+  width : 920px;
+}
+
+@media screen and (max-width: 768px) {
+  .candy_img{
+  margin-left : 20px;
+  height : 200px;
+  width : 320px;
+}
+  .candy_toolbox{
+  margin-left : 20px;
+    width : 310px;
+    padding: 0;
+}
+  .p{
+    margin-left : 10px;
+  }
+}
+
+.p{
+  margin-left : 50px;
+}
